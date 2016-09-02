@@ -17,3 +17,13 @@ Compared to the official EclipseNSIS release 0.9.8.1 this project adds support f
 Some users have found that this version doesn't work with older Eclipse versions, at least with Indigo 3.7 and Galileo 3.5.
 
 Latest version: [0.9.9](https://github.com/henrikor2/eclipsensis/raw/master/dist/eclipsensis-0.9.9.zip)
+
+## Forked and Fixed (0.9.10)
+
+This project is a fork of [henrikor2/eclipsensis](https://github.com/henrikor2/eclipsensis) and fixed for:
+
+* Windows 10
+* Oracle branded Java 8
+* Eclipse Neon 4.6
+
+Latest version: [0.9.10](https://github.com/spt-oss/eclipsensis/blob/master/dist/eclipsensis-0.9.10.zip)
