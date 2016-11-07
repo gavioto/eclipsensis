@@ -440,7 +440,7 @@ public class NSISPreferences extends NSISSettings implements IFileChangeListener
         if(mNSISHome != null) {
             FileMonitor.INSTANCE.unregister(mNSISHome.getNSISExe().getFile(),this);
         }
-        NSISHome home = new NSISHome(new File(nsisHome));
+        NSISHome home = new NSISHome(new File(nsisHome != null ? nsisHome : ""));
         if(home.getNSISExe() != null) {
             mNSISHome = home;
             MakeNSISRunner.setUnicode(home.getNSISExe().isUnicode());

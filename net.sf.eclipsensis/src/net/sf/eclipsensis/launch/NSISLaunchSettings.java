@@ -318,7 +318,7 @@ public class NSISLaunchSettings extends NSISSettings
                         ((ILaunchConfigurationWorkingCopy)mLaunchConfig).setAttribute(name, list);
                     }
                     else {
-                        ((ILaunchConfigurationWorkingCopy)mLaunchConfig).setAttribute(name, (Map<?,?>)object);
+                        ((ILaunchConfigurationWorkingCopy)mLaunchConfig).setAttribute(name, (Map<String,String>)object);
                     }
                 }
                 else if (object == null) {
